@@ -67,7 +67,6 @@
 			<groupId>storm</groupId>
 			<artifactId>storm</artifactId>
 			<version>0.7.1</version>
-			<scope>provided</scope>
 		</dependency>
 		
 		<dependency>
@@ -105,7 +104,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass></mainClass>
+                            <mainClass>storm.analytics.TopologyStarter</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

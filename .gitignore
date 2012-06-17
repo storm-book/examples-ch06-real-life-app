@@ -7,3 +7,5 @@ target/
 *.jar
 *.swp
 .DS_Store
+nohup.out
+dump.rdb
